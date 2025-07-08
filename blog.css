@@ -1,32 +1,16 @@
-.header
-{
-    height: 250px;
-    /* background-color: blueviolet; */
-     background-image:url('IMG_2056.jpg'); 
-     /* background-repeat: repeat-x; */
-    /* background-repeat: repeat-y; */
-    /* background-size: cover;
-     */
-     background-size: contain;
-    }
-h3{
-    font-size: 30px;
-    text-decoration: overline;
-font-family: 'Courier New','Courier';}
-    .blog
-    {
-margin: 40px;
-border: 10px solid tomato;
-box-shadow: 10px 10px 10px blueviolet;    }
-    .second{
-        /* display: none;; */
-         visibility: hidden; 
 
-    }
-.established
-{
-    border: 2px solid red;
-    /* display: block; */
-    margin: 20px;
-    display: inline-block;
+footer{
+    text-align: center;
+}
+nav li{
+list-style: none;
+/* display: inline; */
+margin-right: 15px;
+text-align: center;
+}
+nav li:hover{
+    background-color: aqua;
+}
+nav li a{
+    text-decoration: none;
 }
